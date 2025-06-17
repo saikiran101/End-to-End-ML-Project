@@ -1,5 +1,5 @@
 import sys 
-from logger import logging # Importing the logging module from logger.py
+from src.logger import logging # Importing the logging module from logger.py
 #custom exception handle 
 def error_message_details(error, error_detail:sys):
     _,_,exc_tb=error_detail.exc_info() #exc_tb is the traceback object which tells us at what time and where the error occurred
